@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+
+}
+
+.profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px ridge black;
+    padding: 5px;
+
+}
+
+.menu {
+
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+
+}
+
+.link {
+    float: left;
+    margin-right: 5px;
+    background-color: rgb(178, 230, 230);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+#welcome {
+    background: linear-gradient(25deg, rgb(232, 125, 241) 0%, rgb(184, 215, 228) 40%, rgb(228, 164, 201) 100%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#bio {
+    background: linear-gradient(25deg, rgb(238, 65, 65) 0%, rgb(230, 150, 45) 40%, rgb(226, 196, 27) 100%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.line {
+    width: 100px;
+    height: 10px;
+    background-color: rgb(229, 78, 207);
+    margin: 5px auto;
+}
+
+#name {
+    font-size: 50px;
+    font-family: 'Delicious Handrawn', cursive;
+}
